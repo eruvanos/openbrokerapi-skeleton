@@ -1,0 +1,46 @@
+# Byte-compiled / optimized / DLL files
+
+# mypy
+.mypy_cache/
+**/__pycache__/
+**/.pytests_cache
+
+# IDEA
+.idea/
+
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# pyenv
+.python-version
+
+# celery beat schedule file
+celerybeat-schedule
+
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# macOS nonsense
+.DS_Store

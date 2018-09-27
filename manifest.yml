@@ -1,0 +1,10 @@
+---
+applications:
+- name: exmaple-broker
+  memory: 128M
+  instances: 2
+  command: python -m broker
+  buildpack: python_buildpack
+  env:
+    BROKER_USERNAME: user
+    BROKER_PASSWORD: password
