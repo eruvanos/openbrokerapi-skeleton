@@ -1,1 +1,1 @@
-openbrokerapi==3.1.0
+openbrokerapi==3.2.5
