@@ -14,6 +14,14 @@ Basic skeleton to implement a service broker with [openbrokerapi](https://openbr
 | Delete service          | `deprovision`    |
 | Support async           | `last_operation` |
 
+## Setup
+
+I recommend [Pipenv](https://docs.pipenv.org/en/latest/) for setup
+
+```shell script
+pip install pipenv
+pipenv install
+```
 
 
 ## Deploy on Cloud Foundry
