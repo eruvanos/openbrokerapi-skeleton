@@ -6,7 +6,7 @@ name = "pypi"
 [packages]
 flask = "*"
 openbrokerapi = "*"
-waitress = "*"
+gunicorn = "*"
 
 [dev-packages]
 flask-testing = "*"

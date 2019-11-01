@@ -3,7 +3,7 @@ applications:
 - name: exmaple-broker
   memory: 128M
   instances: 2
-  command: python -m broker
+  command: gunicorn -b 0.0.0.0:$PORT "broker:create_app()"
   buildpack: python_buildpack
   env:
     BROKER_USERNAME: user

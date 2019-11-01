@@ -8,8 +8,8 @@ import requests
 class ServerTest(TestCase):
     def setUp(self):
         def run_server():
-            from broker import create_app
-            create_app().run()
+            from broker import setup_app
+            setup_app().run()
 
         self.server = Process(target=run_server)
         self.server.start()
